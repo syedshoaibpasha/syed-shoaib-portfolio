@@ -1,16 +1,171 @@
-# React + Vite
+# Syed Shoaib Pasha — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive personal portfolio website showcasing my projects, technical skills, education, internship experience, and professional profile.
 
-Currently, two official plugins are available:
+🌐 **Live Portfolio:**  
+https://syed-shoaib-portfolio.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👨‍💻 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm **Syed Shoaib Pasha**, a BCA student specializing in **Artificial Intelligence & Machine Learning** with an interest in **Full Stack Development, AI, and Data Technologies**.
 
-## Expanding the Oxlint configuration
+This portfolio was created to showcase my technical journey, projects, skills, and experience while building a career in the technology industry.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🚀 Features
+
+- Responsive modern portfolio design
+- Professional hero section
+- About Me section
+- Technical skills showcase
+- Featured projects with live demos and GitHub links
+- Internship experience
+- Education section
+- Contact section
+- Resume download
+- Responsive design for mobile, tablet, and desktop
+- Smooth scrolling and interactive UI elements
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+### Deployment
+
+- Render
+
+---
+
+## 📂 Featured Projects
+
+### 🛒 Mini E-Commerce Store
+
+A full-stack e-commerce application featuring product management, shopping flow, order management, and an admin dashboard.
+
+**Technologies:** React, Node.js, Express, MongoDB
+
+- 🌐 Live Demo: https://mini-ecommerce-frontend-8606.onrender.com
+- 💻 GitHub: https://github.com/syedshoaibpasha/mini-ecommerce-store
+
+---
+
+### 🤖 AI Resume Analyzer
+
+An AI-powered application that analyzes resumes against job descriptions and identifies matching and missing skills.
+
+**Technologies:** Python, Flask, AI, NLP, SQLite
+
+- 🌐 Live Demo: http://ai-resume-analyzer-tccq.onrender.com
+- 💻 GitHub: https://github.com/syedshoaibpasha/AI-Resume-Analyzer
+
+---
+
+### 📋 Job Tracker
+
+A job application tracking system designed to manage applications, companies, job roles, interview status, and application details.
+
+**Technologies:** Python, Flask, SQLite, HTML, CSS
+
+- 💻 GitHub: https://github.com/syedshoaibpasha/job-tracker
+
+---
+
+## 💼 Experience
+
+### Full Stack Development Intern
+
+**Eduphoenix Solutions Pvt. Ltd.**
+
+**August 2026 — September 2026**
+
+Gained practical experience in web development and worked with frontend, backend, and full-stack application development concepts.
+
+---
+
+## 🎓 Education
+
+### Bachelor of Computer Applications
+
+**Specialization:** Artificial Intelligence & Machine Learning
+
+**HKBK Degree College**
+
+**Expected Graduation:** 2027
+
+---
+
+## 🧠 Skills
+
+- Python
+- JavaScript
+- React
+- HTML5
+- CSS3
+- Node.js
+- Express.js
+- MongoDB
+- MySQL
+- Flask
+- SQL
+- Git & GitHub
+- Power BI
+- AWS
+- Machine Learning
+- Data Analysis
+
+---
+
+## 📬 Connect With Me
+
+**Email:**  
+ssyedshoaibpasha@gmail.com
+
+**LinkedIn:**  
+https://www.linkedin.com/in/syed-shoaib-pasha-a77301427
+
+**GitHub:**  
+https://github.com/syedshoaibpasha
+
+**Portfolio:**  
+https://syed-shoaib-portfolio.onrender.com
+
+---
+
+## 📄 Resume
+
+You can download my latest resume directly from my portfolio website.
+
+🌐 https://syed-shoaib-portfolio.onrender.com
+
+---
+
+## ⭐ Project Goal
+
+This portfolio represents my continuous learning journey in software development, artificial intelligence, and modern web technologies.
+
+I am currently focused on building practical projects, strengthening my technical skills, and preparing for opportunities in the technology industry.
+
+---
+
+## 📜 License
+
+This project is intended for personal portfolio and educational purposes.
+
+© 2026 Syed Shoaib Pasha. All rights reserved.
