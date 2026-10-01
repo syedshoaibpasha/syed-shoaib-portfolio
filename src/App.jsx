@@ -67,13 +67,40 @@ function App() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a
-          href="/Syed_Shoaib_Pasha_Resume.pdf"
-          download="Syed_Shoaib_Pasha_Resume.pdf"
-          className="secondary-button"
-        >
-          Download Resume ↓
-        </a>
+       <a
+  href="/Syed_Shoaib_Pasha_Resume.pdf"
+  download="Syed_Shoaib_Pasha_Resume.pdf"
+  className="secondary-button"
+  onClick={async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/Syed_Shoaib_Pasha_Resume.pdf");
+
+      if (!response.ok) {
+        throw new Error("Resume file not found");
+      }
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Syed_Shoaib_Pasha_Resume.pdf";
+
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Resume download failed:", error);
+      window.location.href = "/Syed_Shoaib_Pasha_Resume.pdf";
+    }
+  }}
+>
+  Download Resume ↓
+</a>
       </header>
 
       {/* HERO */}
@@ -81,10 +108,11 @@ function App() {
         <section id="home" className="hero-section">
           <div className="hero-content">
             <p className="eyebrow">WELCOME TO MY PORTFOLIO</p>
-
-            <h1>
-              Hi, I'm <span>Syed Shoaib Pasha</span>
-            </h1>
+<h1>
+  <span className="hero-greeting">Hi, I'm</span>
+  <span className="hero-name">Syed Shoaib Pasha</span>
+</h1>
+           
 
             <h2>
               Full Stack Developer <span>·</span> AI/ML Enthusiast
